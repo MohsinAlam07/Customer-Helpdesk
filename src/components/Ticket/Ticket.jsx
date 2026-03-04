@@ -12,6 +12,7 @@ const Ticket = ({ ticket, handleTask }) => {
     //     <button className='btn'>solve</button>
     // </div>
     <div onClick={()=>handleTask(ticket)} className="bg-white rounded-xl shadow-md p-4 sm:p-5 border border-gray-200 mb-4">
+        
       {/* Top Row */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
         <h2 className="text-base sm:text-lg font-semibold text-gray-800">

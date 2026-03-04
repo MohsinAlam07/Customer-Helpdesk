@@ -1,6 +1,6 @@
 import React from "react";
 
-const Tasks = ({ task }) => {
+const Tasks = ({ task,handleResolve }) => {
   return (
     <div>
       <h3 className="text-2xl sm:text-3xl font-bold p-4 sm:p-5 text-gray-500">
@@ -23,7 +23,7 @@ const Tasks = ({ task }) => {
                 {t.title}
               </p>
 
-              <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-md font-medium">
+              <button onClick={()=>handleResolve(t)} className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-md font-medium">
                 Complete
               </button>
             </div>

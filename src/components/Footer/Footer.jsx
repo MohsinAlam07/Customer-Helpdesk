@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {  faGithub, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
@@ -10,11 +14,9 @@ const Footer = () => {
 
     {/* Logo + Description */}
     <nav className="max-w-xs">
-      <h2 className="text-white text-lg font-semibold">CS — Ticket System</h2>
-      <p className="text-sm mt-3 leading-relaxed">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text
-        ever since the 1500s.
+      <h2 className="text-white text-lg font-semibold">CS - Ticket System</h2>
+      <p className="text-sm mt-3 text-gray-400">
+       CS-Ticket System is a smart customer support ticket management platform designed to help teams track issues, manage requests, and resolve customer problems efficiently. Our goal is to simplify support workflows and improve service quality for every customer.
       </p>
     </nav>
 
@@ -45,17 +47,17 @@ const Footer = () => {
     {/* Social Links */}
     <nav>
       <h6 className="footer-title text-white">Social Links</h6>
-      <a className="link link-hover">🌐 @CS — Ticket System</a>
-      <a className="link link-hover">🐦 @CS — Ticket System</a>
-      <a className="link link-hover">📘 @CS — Ticket System</a>
-      <a className="link link-hover">✉ support@cst.com</a>
+     
+      <a className="link link-hover">   <FontAwesomeIcon icon={faTwitter} /> CS-Ticket System</a>
+      <a className="link link-hover"> <FontAwesomeIcon icon={faGithub} /> CS-Ticket System</a>
+      <a className="link link-hover"><FontAwesomeIcon icon={faWhatsapp} /> support@cst.com</a>
     </nav>
 
   </div>
 
   {/* Bottom Copyright */}
   <div className="border-t border-gray-700 text-center py-4 text-sm">
-    © 2025 CS — Ticket System. All rights reserved.
+    © 2025 CS - Ticket System. All rights reserved.
   </div>
 
 </footer>
