@@ -1,0 +1,110 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account even after resetting the password multiple times.",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-11-15"
+  },
+  {
+    "id": "#1002",
+    "title": "Password Reset Email Not Received",
+    "description": "Customer requested a password reset but did not receive the email in their inbox.",
+    "customer": "Daniel Smith",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-11-16"
+  },
+  {
+    "id": "#1003",
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their invoice from the billing section.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-11-17"
+  },
+  {
+    "id": "#1004",
+    "title": "Payment Failed but Amount Deducted",
+    "description": "Customer reports payment failed but the bank deducted the amount.",
+    "customer": "Emily Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-11-18"
+  },
+  {
+    "id": "#1005",
+    "title": "Website Loading Very Slowly",
+    "description": "Customer experiencing slow loading time on dashboard pages.",
+    "customer": "David Wilson",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-11-19"
+  },
+  {
+    "id": "#1006",
+    "title": "Profile Update Not Saving",
+    "description": "Customer unable to update profile information after editing.",
+    "customer": "Olivia Martinez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-11-20"
+  },
+  {
+    "id": "#1007",
+    "title": "Error 500 on Dashboard",
+    "description": "Customer reports internal server error when opening dashboard.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-11-21"
+  },
+  {
+    "id": "#1008",
+    "title": "Notification Emails Not Sending",
+    "description": "Customer not receiving notification emails after performing actions.",
+    "customer": "Sophia Taylor",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-11-22"
+  },
+  {
+    "id": "#1009",
+    "title": "Cannot Upload Profile Picture",
+    "description": "Customer unable to upload profile image due to upload error.",
+    "customer": "William Thomas",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-11-23"
+  },
+  {
+    "id": "#1010",
+    "title": "Subscription Plan Not Updating",
+    "description": "Customer upgraded plan but dashboard still shows old plan.",
+    "customer": "Isabella Moore",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-11-24"
+  },
+  {
+    "id": "#1011",
+    "title": "Mobile Layout Broken",
+    "description": "Customer reports UI layout issues on mobile devices.",
+    "customer": "Benjamin White",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-11-25"
+  },
+  {
+    "id": "#1012",
+    "title": "Search Feature Not Working",
+    "description": "Customer cannot search tickets using the search bar.",
+    "customer": "Mia Harris",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-11-26"
+  }
+]
